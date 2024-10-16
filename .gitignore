@@ -1,0 +1,7 @@
+target/
+
+### IntelliJ IDEA ###
+.idea/
+# Default ignored files
+/shelf/
+/workspace.xml
