@@ -8,12 +8,10 @@ public class Launcher {
 
     public static void main(String[] args) {
 
-        logger.trace("starting application");
+        logger.debug("starting application");
 
         Context.init();
 
-        logger.info("API_KEY = {}", Context.API_KEY);
-
-        logger.trace("stopping application");
+        logger.debug("stopping application");
     }
 }

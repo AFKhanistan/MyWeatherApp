@@ -14,7 +14,7 @@ public class Context {
 
     public static void init() {
 
-        logger.trace("starting method init()");
+        logger.debug("starting method init()");
 
         API_KEY = "";
 
@@ -35,6 +35,6 @@ public class Context {
             throw new RuntimeException(e);
         }
 
-        logger.trace("finished method init()");
+        logger.debug("finished method init()");
     }
 }
